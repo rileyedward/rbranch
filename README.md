@@ -65,7 +65,3 @@ rbranch -d
 ```
 
 You will be prompted to select a branch from the available options for deletion.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for more details.
