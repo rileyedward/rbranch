@@ -1,6 +1,22 @@
 # rbranch
 
+CLI tool built to simplify Git branches.
+
+## Overview
+
+### What is rbranch?
+
 rbranch is a CLI tool built with Go and Bubble Tea designed to simplify your Git workflow. If you’re tired of typing long and cumbersome branch names, rbranch can help. With just a few commands and flags, you can effortlessly perform common Git branch operations and streamline your development process.
+
+### Why Use rbranch?
+
+Typing long branch names, searching through inactive branches, and managing Git operations can be tedious. rbranch is designed for developers who want a faster, cleaner way to interact with Git branches—no need to memorize lengthy commands or switch between GUIs and terminals.
+
+### Key Features
+
+- **Checkout branches**: Easily switch to another branch without typing its full name.
+- **Delete branches**: Safely cleanup unused local branches.
+- **Copy branch names**: Save time ny instantly copying an entire branch name to your clipboard.
 
 ## Getting Started
 
