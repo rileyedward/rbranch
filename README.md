@@ -2,29 +2,25 @@
 
 CLI tool built to simplify Git branches.
 
+> **Status:** Inactive — not in active development. Kept for reference and to run locally.
+
 ## Overview
 
 ### What is rbranch?
 
-rbranch is a CLI tool built with Go and Bubble Tea designed to simplify your Git workflow. If you’re tired of typing long and cumbersome branch names, rbranch can help. With just a few commands and flags, you can effortlessly perform common Git branch operations and streamline your development process.
-
-### Why Use rbranch?
-
-Typing long branch names, searching through inactive branches, and managing Git operations can be tedious. rbranch is designed for developers who want a faster, cleaner way to interact with Git branches—no need to memorize lengthy commands or switch between GUIs and terminals.
+rbranch is a command-line tool, built with Go and Bubble Tea, for the Git branch operations you do all day without typing long branch names. Pick a branch from an interactive list to check it out, copy its name or delete it, instead of memorizing lengthy commands, hunting through inactive branches or switching between a GUI and the terminal.
 
 ### Key Features
 
-- **Checkout branches**: Easily switch to another branch without typing its full name.
-- **Delete branches**: Safely cleanup unused local branches.
-- **Copy branch names**: Save time ny instantly copying an entire branch name to your clipboard.
+- **Checkout Branches**: Switch to another branch without typing its full name.
+- **Delete Branches**: Safely clean up unused local branches.
+- **Copy Branch Names**: Copy an entire branch name to your clipboard instantly.
 
 ## Getting Started
 
 ### Prerequisites
 
-Ensure you have the following prerequisites installed on your system. You can verify each installation by running the provided commands in your terminal.
-
-1. **Go** is required for the application. Check if Go is installed by running:
+1. **Go** (1.22+) is required to build the tool. Check it by running:
 
     ```bash
     go version
@@ -32,19 +28,19 @@ Ensure you have the following prerequisites installed on your system. You can ve
 
 ### Installation
 
-1. Install project dependencies:
+1. Install the project's dependencies:
 
     ```bash
     go mod tidy
     ```
 
-2. Build the application:
+2. Build the executable:
 
     ```bash
     go build
     ```
 
-3. Install the executable:
+3. Move it somewhere on your `PATH`:
 
     ```bash
     sudo mv rbranch /usr/local/bin
@@ -52,32 +48,34 @@ Ensure you have the following prerequisites installed on your system. You can ve
 
 ## Usage
 
-### Checkout a Branch
-
-To checkout a branch from your current Git repository, simply run:
+### Check Out a Branch
 
 ```bash
 rbranch
 ```
 
-This will present a list of available branches for you to choose from.
+Shows the branches in the current Git repository for you to choose from, then checks out the one you pick.
 
-### Copy a Branch
-
-To copy a branch name to your clipboard, use the following command:
+### Copy a Branch Name
 
 ```bash
 rbranch -c
 ```
 
-You’ll be prompted to select a branch, and its name will be copied to your clipboard.
+Prompts you to select a branch and copies its name to your clipboard.
 
 ### Delete a Branch
-
-To delete a branch, run:
 
 ```bash
 rbranch -d
 ```
 
-You will be prompted to select a branch from the available options for deletion.
+Prompts you to select a branch from the available options and deletes it.
+
+## Contributing
+
+This project isn't in active development, so I'm not reviewing issues or pull requests. You're welcome to fork it and take it in your own direction under the license below.
+
+## License
+
+Released under the [MIT License](LICENSE).
