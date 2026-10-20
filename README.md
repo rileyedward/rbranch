@@ -2,7 +2,7 @@
 
 CLI tool built to simplify Git branches.
 
-> **Status:** Inactive — not in active development. Kept for reference and to run locally.
+> **Status:** Complete — no further development planned, but ready to download and use.
 
 ## Overview
 
@@ -74,7 +74,7 @@ Prompts you to select a branch from the available options and deletes it.
 
 ## Contributing
 
-This project isn't in active development, so I'm not reviewing issues or pull requests. You're welcome to fork it and take it in your own direction under the license below.
+No new features are planned, but it's meant to be used: bug reports through [Issues](../../issues) are welcome, and small fixes may be merged when I get to them. For anything bigger, you're welcome to fork it and take it in your own direction under the license below.
 
 ## License
 
